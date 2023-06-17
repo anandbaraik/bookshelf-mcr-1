@@ -2,3 +2,39 @@
   font-family: sans-serif;
   text-align: center;
 }
+
+section > h1 {
+  box-shadow: 0 0 0.8rem 0 rgba(80, 78, 78, 0.2);
+  padding: 1rem;
+}
+
+.search-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 200px;
+  padding: 1rem;
+  margin: 0.5rem;
+  border: 0.1rem solid rgb(63, 58, 58);
+  box-shadow: 0 0 0.8rem 0 rgba(80, 78, 78, 0.2);
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    width: 90vw;
+  }
+}
+
+.container > h3 {
+  text-align: center;
+  margin: auto;
+}

@@ -3,28 +3,23 @@ import { useBook } from "../context/BookContext";
 
 export default function BookCard({book}) {
     const {toggleBookToShelves} = useBook();
-  const {author, id, image, name} = book;
-  const changeHandler = (e, id) => {
-    toggleBookToShelves({payload:{bookId:id, shelf:e.target.value}});
-  }
+    const {author, id, image, name} = book;
+    const changeHandler = (e, id) => {
+        toggleBookToShelves({payload:{bookId:id, shelf:e.target.value}});
+    }
 
   return (
     <div
       key={id}
-      style={{
-        maxWidth: "8rem",
-        padding: "1rem",
-        margin: "0.5rem",
-        border: "0.1rem solid"
-      }}
+      className="card"
     >
       <img
         src={image}
         style={{ width: "100%", height: "160px", objectFit: "contain" }}
         alt={name}
       />
-      <p>Name : {name}</p>
-      <p>Author : {author}</p>
+      <h4>{name}</h4>
+      <p>{author}</p>
       <select name="bookshelf" id="bookshelf" value={book.shelf} onChange={(e) => changeHandler(e, id)}>
         <option value="None">None</option>
         <option value="Currently_Reading">Currently Reading</option>
