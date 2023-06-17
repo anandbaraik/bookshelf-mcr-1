@@ -177,7 +177,7 @@ export const books = [
     author: "Friedrich Nietzsche",
     image: "https://m.media-amazon.com/images/I/9176A9Hpd2L.jpg",
     rating: 4.4,
-    shelf: "None"
+    shelf: "Currently_Reading"
   },
   {
     id: "f549e22e-2112-4836-a320-0647f02db8ba",
@@ -185,7 +185,7 @@ export const books = [
     author: "Friedrich Nietzsche",
     image: "https://m.media-amazon.com/images/I/81Kr+YIWjCL.jpg",
     rating: 4.5,
-    shelf: "None"
+    shelf: "Currently_Reading"
   },
   {
     id: "44568357-9836-4363-a017-a5f5f4b13bf2",
@@ -243,7 +243,7 @@ export const books = [
     author: "Benjamin Graham",
     image: "https://m.media-amazon.com/images/I/919mmNCTaaL.jpg",
     rating: 4.6,
-    shelf: "None"
+    shelf: "Want_To_Read"
   },
   {
     id: "93625ee9-fdbb-463b-a300-0fd28438366a",
@@ -251,7 +251,7 @@ export const books = [
     author: "Burton G. Malkiel",
     image: "https://m.media-amazon.com/images/I/71K518cj-jL.jpg",
     rating: 4.6,
-    shelf: "None"
+    shelf: "Want_To_Read"
   },
   {
     id: "aacca51e-235c-425e-b365-5b3e64c4f469",
@@ -259,7 +259,7 @@ export const books = [
     author: "Eric Ries",
     image: "https://m.media-amazon.com/images/I/81-QB7nDh4L.jpg",
     rating: 4.7,
-    shelf: "None"
+    shelf: "Want_To_Read"
   },
   {
     id: "0d8fa490-e4b9-4d4f-a5b2-3d1acf30a3ee",
@@ -373,7 +373,7 @@ export const books = [
     author: "J.K. Rowling",
     image: "https://m.media-amazon.com/images/I/81f7bXC-tTL.jpg",
     rating: 4.9,
-    shelf: "None"
+    shelf: "Read"
   },
   {
     id: "f136cd24-b3cd-4fa4-93ee-a9c4ebd58da0",
@@ -389,7 +389,7 @@ export const books = [
     author: "J.K. Rowling",
     image: "https://m.media-amazon.com/images/I/81a4yXpXjnL.jpg",
     rating: 4.7,
-    shelf: "None"
+    shelf: "Read"
   },
   {
     id: "51fa5d21-6baa-4b83-99a3-bbcd4fa5ddd3",
@@ -405,6 +405,6 @@ export const books = [
     author: "J.K. Rowling",
     image: "https://m.media-amazon.com/images/I/81Whkax7IGL.jpg",
     rating: 4.9,
-    shelf: "None"
+    shelf: "Read"
   }
 ];
